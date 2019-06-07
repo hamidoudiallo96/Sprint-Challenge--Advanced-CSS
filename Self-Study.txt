@@ -1,0 +1,34 @@
+Questions:
+
+
+1.) What is the difference between an adaptive website and a fully responsive website?
+
+    Adaptive design uses a breakpoint to trigger different screen sizes. Each layout is predefined. AWD targets breakpoints.
+
+    Responsive design similar to adaptive design, but it incorporates a fluid design, so that breakpoints are not necessary. RWD targets certain devices.
+    
+
+2.) Describe what it means to be mobile first vs desktop first.
+
+    Mobile first refers to building out your site on a mobile view first. Typically the width of the site is set to 500px and min-width is utilized to create layouts of larger screens(i.e. tablets and desktops).
+    Desktop first is the opposite of the mobile firt. Typically the width is set between 800-1000px and max-width is utilized to scale down the site for mobile and tablet view.
+
+
+
+3.) What does font-size: 62.5% in the html tag do for us when using rem units?
+
+    The default font size on most browsers are about 16px. 62.5% of 16px is 10px and that allows us have an easier time scaling our font-sizes with a base of 10.
+
+
+
+4.) How would you describe preprocessing to someone new to CSS?
+
+    Preprocessing allows developers to write css syntax in  different ways. Preprocessors are usually more time efficient for developers when styling their css.
+
+
+
+
+5.) What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    Definitely nesting and media queries. Its so much more time efficeint to style css in this way. I had trouble with media queries initially, but that was a misunderstanding on my part.
+
