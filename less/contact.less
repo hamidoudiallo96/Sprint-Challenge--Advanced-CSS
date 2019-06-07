@@ -1,0 +1,107 @@
+body{
+    @media @phone{
+        width: 130%;
+        margin: 0;
+    }
+
+    .contact-form{
+
+        text-align: center;
+        background-color: lighten(grey,20%);
+        margin-bottom: 40px;
+    
+        @media @phone{
+            width: 100%;
+        }
+    
+        h2{
+          padding-top: 20px;
+          font-size: 3em;
+          font-weight: bold;
+          text-align: center;
+        }
+    
+        .labels{
+          font-size: 2rem;
+          color: @btn-bg-color;
+        }
+    
+    
+        input{
+          text-align: center;
+          width: 70%;
+          padding: 10px;
+          font-size: 1em;
+        }
+    
+        .info{
+          text-align: center;
+          padding: 50px 0px;
+        }
+    
+        .name-1{
+          padding: 20px 0px;
+        }
+    
+        .name-2{
+          padding: 20px 0px;
+        }
+    
+        .email{
+          padding: 20px 0px;
+        }
+    
+        .pass{
+          padding: 20px 0px;
+        }
+    
+        .phone{
+          padding: 20px 0px;
+        }
+    
+        button{
+          font-size: 1.5em;
+          background-color:@btn-bg-color;
+          color: white;
+          padding: 20px 40px;
+          width: 70%;
+          margin-top: 20px;
+          border: 1px white solid;
+          border-radius: 50px;
+        }
+    
+        button:hover{
+            color:@btn-bg-color;
+            background-color: white
+        }
+    
+        button a{
+          text-decoration: none;
+          color:white;
+        }
+    
+        button a:hover{
+            color:@btn-bg-color;
+            background-color: white ;
+      
+        }
+        p{
+            color:@btn-bg-color;
+        }
+    }
+    
+    
+    footer {
+        color: #22283B;
+        background: #f4f4f4;
+        padding: 20px 0;
+        border: 1px double #e0e0e0;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
